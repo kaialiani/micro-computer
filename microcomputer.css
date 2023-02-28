@@ -1,0 +1,99 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-template-rows: auto;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 50%;
+    border-color: mediumpurple;
+}
+
+.img-center { 
+    display:block;
+    margin:0 auto;
+}
+
+h1 {
+    font-family: 'Noto Sans Mono', monospace;
+    padding: 20px;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+}
+
+h3 {
+    text-align: center;
+    color: honeydew;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+}
+
+p {font-family: 'Roboto Mono', monospace;
+    color: rgb(179, 179, 179);
+    display: inline;
+    padding: 9px;
+
+}
+
+body {
+    background-color: rgb(61, 60, 60);
+}
+
+
+a {font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:rgb(218, 61, 61);
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+footer {
+      
+      font-size: 14px;
+      text-align: center;
+      margin-top: 40px;
+  }
+
+  .link {
+    color: rgb(179, 179, 179);
+    font-family: 'Roboto Mono', monospace;
+}
+
+figcaption {
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+    font-style: italic;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px;
+}

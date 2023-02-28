@@ -1,0 +1,138 @@
+main {
+    display: grid;
+    grid-template-columns: 0.7fr 1.45fr 1.45fr;
+    column-gap: 80px;
+    row-gap: 20px;
+    margin-right: 4cm;
+}
+
+img {
+    max-width: 110%;
+}
+.img-center { 
+    display:block;
+    margin:0 auto;
+  }
+img.main {
+      grid-column: 2 / span 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-size-adjust: 15px;
+    line-height: 35px;
+    font-size: 22px;
+}
+
+a {font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:rgb(218, 61, 61);
+  }
+  
+  a:active {
+    text-decoration: none;
+}
+
+  body {
+    background-color: rgb(61, 60, 60);
+}
+
+h1 {
+    font-family: 'Noto Sans Mono', monospace;
+    padding: 20px;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+p {
+    grid-column: 2 / span 1;
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+}
+
+h3 {
+    grid-column: 2 / span 1;
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+    font-size: 22px;
+}
+
+div {
+    grid-column: 2 / span 2;
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+}
+
+figcaption {
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+    font-style: italic;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+      
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link {
+  color: rgb(179, 179, 179);
+  font-family: 'Roboto Mono', monospace;
+  display: inline;
+  padding: 9px;
+}
+
+ul.list {
+    list-style-type: circle;
+    font-family: 'Roboto Mono', monospace;
+    color: honeydew;
+    font-style: italic;
+    grid-column: 2 / span 1;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+}
+
+u {
+    color: honeydew
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+ul.lista {
+    list-style-type:circle;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 30px;
+    font-size: 16px;
+    color: honeydew;
+}
